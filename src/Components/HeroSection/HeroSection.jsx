@@ -1,7 +1,9 @@
 import Typewriter from 'typewriter-effect';
-import Index from "./HeroAnimation";
+
 import resume from '../../assets/Tanvir Hossan Ramim.pdf'
 import pp from '../../assets/pp.png'
+import AmmeIndex from './AnimationHero/AmmeIndex';
+
 
 
 const HeroSection = () => {
@@ -31,7 +33,8 @@ const HeroSection = () => {
             {/* 2nd div */}
             <div className="relative order-first lg:order-none  ">
                 <div className='overflow-hidden ' >
-                    <Index></Index>
+                    
+                    <AmmeIndex></AmmeIndex>
                 </div>
                 <div className="absolute xmx:top-[115px] xmx:left-[110px] left-[96px] top-[100px]  " >
                     <div className="avatar ">

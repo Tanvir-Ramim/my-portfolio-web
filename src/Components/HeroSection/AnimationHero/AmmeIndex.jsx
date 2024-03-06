@@ -1,6 +1,6 @@
 
 import { Div } from './AnimationStyle';
-const Index = () => (
+const AmmeIndex = () => (
   <Div>
     <svg
       className="BgAnimation__svg"
@@ -362,4 +362,4 @@ const Index = () => (
   </Div>
 );
 
-export default Index;
+export default AmmeIndex;
