@@ -1,6 +1,5 @@
 import Typewriter from 'typewriter-effect';
-
-import resume from '../../assets/Tanvir Hossan Ramim.pdf'
+import resume from '../../assets/Tanvir-Hossan-Ramim.pdf'
 import pp from '../../assets/pp.png'
 import AmmeIndex from './AnimationHero/AmmeIndex';
 
