@@ -33,9 +33,9 @@ const HeroSection = () => {
                 <div className='overflow-hidden ' >
                     <Index></Index>
                 </div>
-                <div className="absolute top-[115px] left-[110px]  ">
+                <div className="absolute xmx:top-[115px] xmx:left-[110px] left-[96px] top-[100px]  " >
                     <div className="avatar ">
-                        <div className="md:w-80  w-56 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <div className="md:w-80  xmx:w-56 w-48 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src={pp} />
                         </div>
                     </div>

@@ -51,6 +51,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 3rd project */}
+                <h1 className="text-white text-[30px] font-semibold text-center mt-10 mb-5 ">Team Project</h1>
                 <div className='mt-8 md:mt-4 p-3'>
                     <div className='flex md:flex-row flex-col md:p-5 p-3 lg:gap-0 md:gap-3 '>
                         <div className='flex-1 flex lg:justify-start justify-center'>
@@ -58,12 +59,16 @@ const Projects = () => {
                         </div>
                         <div className='flex-1  flex items-center'>
                             <div>
-                                <h1 className='text-center lg:text-2xl md:text-xl text-lg text-white font-semibold md:mt-0 mt-5'>Goriber Gadget</h1>
-                                <h1 className="lg:text-[20px] md:text-[16px] text-[15px] text-center  md:mt-3 leading-8 text-[#F2F3F494]" >Discover the latest gadgets on our platform! List and manage products such as phones, TVs, ACs, and more. Users have the flexibility to add, delete, and save items to their cart for a seamless shopping experience. Explore our gadget-selling website for a convenient and personalized way to shop for your tech needs.</h1>
-                                <div className='flex gap-6 justify-center lg:mt-8 md:mt-5 mt-4 '>
-                                    <a href='https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-Tanvir-Ramim' target="_blank" rel="noopener noreferrer" className='text-[#F2F3F494] border py-1 px-4 border-[#854CE6] font-medium  flex items-center gap-2 w-fit'>  <FaGithub className='text-lg text-white' />  Code</a>
+                                <h1 className='text-center lg:text-2xl md:text-xl text-lg text-white font-semibold md:mt-0 mt-5'>
+                                    Meet Wave
+                                </h1>
+                                <h1 className="lg:text-[20px] md:text-[16px] text-[15px] text-center  md:mt-3 leading-8 text-[#F2F3F494]" >Our team collaborated to create a meeting website where users can connect with others through audio and video calls. Our focus on simplicity and accessibility is reflected in a user-friendly interface and reliable features. Through close teamwork, we ensured successful feature implementation and a smooth user experience, demonstrating our commitment to innovation.</h1>
+                                <div className='flex flex-wrap gap-6 justify-center lg:mt-8 md:mt-5 mt-4 '>
+                                    <a href='https://github.com/Ashik-Himel/meet-wave-client' target="_blank" rel="noopener noreferrer" className='text-[#F2F3F494] border py-1 px-4 border-[#854CE6] font-medium  flex items-center gap-2 w-fit'>  <FaGithub className='text-lg text-white' /> Front-End Code</a>
 
-                                    <a href='https://gariber-gadget.web.app/' target="_blank" rel="noopener noreferrer" className='text-[#F2F3F494] border py-1 px-4 border-[#854CE6] font-medium  flex items-center gap-2 w-fit'>  <FaExternalLinkAlt className='text-lg text-white' />  Live Demo</a>
+                                    <a href='https://github.com/Ashik-Himel/meet-wave-server' target="_blank" rel="noopener noreferrer" className='text-[#F2F3F494] border py-1 px-4 border-[#854CE6] font-medium  flex items-center gap-2 w-fit'>  <FaGithub className='text-lg text-white' />  Back-End Code</a>
+
+                                    <a href='https://meet-wave.vercel.app/' target="_blank" rel="noopener noreferrer" className='text-[#F2F3F494] border py-1 px-4 border-[#854CE6] font-medium  flex items-center gap-2 w-fit'>  <FaExternalLinkAlt className='text-lg text-white' />  Live Demo</a>
                                 </div>
                             </div>
                         </div>

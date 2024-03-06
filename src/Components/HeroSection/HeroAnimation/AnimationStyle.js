@@ -8,6 +8,10 @@ export const Div = styled.div`
         width:425px;
         height:420px;
       }
+      @media (max-width: 375px) {
+        width:375px;
+        height:400px;
+      }
 `
 
 
